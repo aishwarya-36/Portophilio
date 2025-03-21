@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+const pageTitle = "About Me";
+
+const identity = {
+  firstName: "Aishwarya",
+  country: "Portugal",
+  occupation: "Full-Stack Developer",
+  company: "RampNow",
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Nextjs","PostgreSQL","Go"];
+
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+		    <style>
+    </style>
+	</head>
+	<body class="flex flex-col min-h-screen font-sans">
+		<Header />
+		<div class="flex-grow">
+		<h1 class="font-serif">{pageTitle}</h1>
+        <h2>... and my developer journey!</h2>
+        <h3> Welcome to My Digital Playground!</h3>
+        <p> Hey there! I'm {identity.firstName} (aka Aishu), a {identity.occupation} at {identity.company} based in the sun-kissed streets of Porto,{identity.country}, where the pastries are sweeter than me (and trust me, that’s pretty sweet!). 
+        <br> <br>
+        When I’m not busy crafting pixel-perfect web applications, you can find me binge-watching movies, geeking out over the latest anime series, or plotting my next adventure to a far-off land—because what's better than debugging code? Debugging code while sipping tea in a cozy café in Tokyo, of course!
+        <br> <br>
+        With a passion for turning ideas into code and a love for storytelling, I create web experiences that are as engaging as a plot twist in your favorite film. So grab some popcorn, scroll through my portfolio, and let’s embark on a tech journey that’s bound to be more exciting than a giant robot battle! 🎬✨✈️</p>
+		<p>My skills are:</p>
+		<ul>
+		{skills.map((skill) => <li class="text-[#0f0cc7c5]">{skill}</li>)}
+		</ul>
+		</div>
+		<Footer />
+	</body>
+</html>
