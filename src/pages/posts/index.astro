@@ -8,10 +8,8 @@ const pageTitle = "My Blogs";
 
 ---
 <BaseLayout pageTitle={pageTitle}>
-	<div class="flex-grow">
 	<p>This is where I will post about my journey of becoming a developer.</p>
 	<ul>
 		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
 	</ul>
-	</div>
 </BaseLayout>

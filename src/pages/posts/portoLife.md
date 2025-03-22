@@ -26,6 +26,6 @@ As I walk, I find myself smiling at the locals who greet me with friendly nods, 
 
 Life here is not just about the stunning views; it’s about the simplicity and peace that comes with it. There’s a certain magic in the air, and every day feels like an adventure waiting to unfold. The struggle of the past feels like a distant memory as I embrace this new chapter filled with love, laughter, and endless exploration.
 
-So, here’s to new beginnings! To the adventures that await in Vila do Conde, to the waves that wash away my worries, and to the reminder that sometimes, it takes a little struggle to appreciate the beauty that life has to offer. J
+So, here’s to new beginnings! To the adventures that await in Vila do Conde, to the waves that wash away my worries, and to the reminder that sometimes, it takes a little struggle to appreciate the beauty that life has to offer.
 
-oin me on this journey as I continue to explore, discover, and cherish every moment in this beautiful corner of the world!
+Join me on this journey as I continue to explore, discover, and cherish every moment in this beautiful corner of the world!

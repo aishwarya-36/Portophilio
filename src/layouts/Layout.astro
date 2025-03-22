@@ -11,11 +11,17 @@ const { pageTitle } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>Aishwarya-Portfolio</title>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<style>
+			h1 {
+				font-family: 'Dancing Script', cursive;
+			}
+		</style>
 	</head>
-	<body class=" min-h-screen font-sans ">
+	<body class=" flex flex-col min-h-screen font-sans ">
 		<Header />
-		<div class="m-5 text-justify  w-[70%] ">
+		<div class="flex-grow m-5 text-justify w-[70%] ">
 		<h1>{ pageTitle } </h1>
         <slot />
 		</div>
