@@ -6,10 +6,10 @@ const { frontmatter } = Astro.props;
 
 <meta charset="utf-8" />
 <BaseLayout pageTitle={frontmatter.title}>
-    <p>Published on: {frontmatter.pubDate}</p>
+    <p class="text-left">Published on: {frontmatter.pubDate}</p>
     <p><em>{frontmatter.description}</em></p>
     <p>Written by {frontmatter.author}</p>
-    <!-- <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} /> -->
+    <!-- <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />  -->
     <div  class="flex gap-2 flex-wrap">
         {frontmatter.tags.map((tag: string) => (
           <p class="m-2 border border-dotted border-[#532d2d] p-1 text-sm rounded-lg bg-gray-500 text-white"><a href={`/portophilio/tags/${tag}`}>{tag}</a></p>

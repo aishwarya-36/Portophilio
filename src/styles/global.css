@@ -1,15 +1,27 @@
 @import "tailwindcss";
 html {
   background-color: #d1d7dd;
-  font-family: sans-serif;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
+body {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 h1 {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Dancing Script", cursive;
 }
 h2 {
   display: block;
@@ -17,7 +29,7 @@ h2 {
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Merriweather", serif;
 }
 h3 {
   display: block;
@@ -25,7 +37,7 @@ h3 {
   margin-top: 1em;
   margin-bottom: 1em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Merriweather", serif;
 }
 h4 {
   display: block;
@@ -33,7 +45,7 @@ h4 {
   margin-top: 1.33em;
   margin-bottom: 1.33em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Merriweather", serif;
 }
 h5 {
   display: block;
@@ -41,7 +53,7 @@ h5 {
   margin-top: 1.67em;
   margin-bottom: 1.67em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Merriweather", serif;
 }
 h6 {
   display: block;
@@ -49,17 +61,19 @@ h6 {
   margin-top: 2.33em;
   margin-bottom: 2.33em;
   font-weight: bold;
-  font-family: serif;
+  font-family: "Merriweather", serif;
 }
 ul {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 4px;
-  padding-left: 40px;
+  padding-left: 10px;
+  font-family: "Merriweather", serif;
 }
 li {
   display: list-item;
+  font-family: "Merriweather", serif;
 }
 ol {
   display: block;
@@ -67,9 +81,11 @@ ol {
   margin-top: 4px;
   margin-bottom: 4px;
   padding-left: 40px;
+  font-family: "Merriweather", serif;
 }
 p {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-family: "Merriweather", serif;
 }
