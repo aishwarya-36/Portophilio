@@ -7,7 +7,7 @@ author: "Aishwarya"
 image:
   url: "../../assets/blogging.jpeg"
   alt: "A girl writing on a beach sunset background"
-tags: ["blogging", "Porto", "beach"]
+tags: ["Blogging", "Porto", "Beach","Personal"]
 ---
 
 ![A girl blogging at beach](../../assets/blogging.jpeg)
