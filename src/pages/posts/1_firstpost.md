@@ -7,7 +7,7 @@ author: "Aishwarya"
 image:
   url: "./../../assets/coding.png"
   alt: "A girl coding silhouette"
-tags: ["developer", "blogging", "learning"]
+tags: ["Developer", "Blogging", "Learning"]
 ---
 
 Welcome to my _new blog_ about becoming a developer. Here, I will share my learning journey as I build my portfolio website.
