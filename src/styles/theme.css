@@ -1,0 +1,21 @@
+:root {
+
+    /* Dark theme (Mocha) */
+      --color-background: #1e1e2e;
+      --color-text: #cdd6f4;
+      --color-primary: #89b4fa;
+      --color-secondary: #f5c2e7;
+      --color-accent: #fab387;
+      --color-muted: #6c7086;
+      --color-border: #313244;
+      --color-card: #313244;
+      
+      /* Syntax highlights (Mocha) */
+      --color-syntax-red: #f38ba8;
+      --color-syntax-orange: #fab387;
+      --color-syntax-yellow: #f9e2af;
+      --color-syntax-green: #a6e3a1;
+      --color-syntax-blue: #89b4fa;
+      --color-syntax-purple: #cba6f7;
+    }
+  

@@ -6,13 +6,13 @@ const { frontmatter } = Astro.props;
 
 <meta charset="utf-8" />
 <BaseLayout pageTitle={frontmatter.title}>
-    <p class="text-left">Published on: {frontmatter.pubDate}</p>
-    <p><em>{frontmatter.description}</em></p>
-    <p>Written by {frontmatter.author}</p>
-    <div  class="flex gap-2 flex-wrap">
-        {frontmatter.tags.map((tag: string) => (
-          <p class="m-2 border border-dotted border-[#532d2d] p-1 text-sm rounded-lg bg-gray-500 text-white"><a href={`/portophilio/tags/${tag}`}>{tag}</a></p>
-        ))}
+  <p><em>{frontmatter.description}</em></p>
+  <p>Written by {frontmatter.author}</p>
+  <p class="text-left">Published on: <span class="font-light">{frontmatter.pubDate}</span></p>
+  <div  class="flex gap-2 flex-wrap">
+    {frontmatter.tags.map((tag: string) => (
+      <p class="mr-2 border border-dotted border-[#532d2d] p-1 text-sm rounded-lg bg-gray-500 text-white"><a href={`/portophilio/tags/${tag}`}>{tag}</a></p>
+    ))}
       </div>
     <slot />
 </BaseLayout>

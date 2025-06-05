@@ -1,13 +1,8 @@
 @import "tailwindcss";
-html {
-  background-color: #d1d7dd;
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-body {
+@import "./theme.css";
+html{
+  background-color:var(--color-background) ;
+  color:var(--color-text);
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -15,6 +10,28 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+nav{
+  color:var(--color-accent);
+
+}
+
+.dark h1 {
+  font-family: "Lobster";
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+
+}
 h1 {
   font-family: "Lobster";
   display: block;
@@ -43,6 +60,7 @@ h3 {
 
 }
 h4 {
+  color:var(--color-secondary);
   display: block;
   font-size: 1em;
   margin-top: 1.33em;
@@ -52,6 +70,7 @@ h4 {
 
 }
 h5 {
+  color:var(--color-secondary);
   display: block;
   font-size: 0.83em;
   margin-top: 1.67em;
@@ -61,6 +80,7 @@ h5 {
 
 }
 h6 {
+  color:var(--color-secondary);
   display: block;
   font-size: 0.67em;
   margin-top: 2.33em;

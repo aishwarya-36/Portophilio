@@ -33,33 +33,34 @@ const skillCategories = {"Front-end": ["HTML","CSS","Javascript","Typescript","R
 	<body class="min-h-screen ">
 		<Header />
 		<div class="flex-grow flex justify-center">
-		<div class=" mx-5 text-justify md:w-[80ch]">
-		<h1>{pageTitle}</h1>
-        <h2>... and my developer journey!</h2>
-        <h3> Welcome to My Digital Playground!</h3>
-        <p> Hey there! I'm {identity.firstName} (aka Aishu), a {identity.occupation} at {identity.company} based in the sun-kissed streets of Porto, {identity.country}, where the pastries are sweeter than me (and trust me, that’s pretty sweet!). 
-        <br> <br>
-        When I’m not busy crafting pixel-perfect web applications, you can find me binge-watching movies, geeking out over the latest anime series, or plotting my next adventure to a far-off land—because what's better than debugging code? Debugging code while sipping tea in a cozy café in Tokyo, of course!
-        <br> <br>
-        With a passion for turning ideas into code and a love for storytelling, I create web experiences that are as engaging as a plot twist in your favorite film. So grab some popcorn, scroll through my portfolio, and let’s embark on a tech journey that’s bound to be more exciting than a giant robot battle! 🎬✨✈️</p>
-		<p>My skills are:</p>
-		<ul>
-			{Object.keys(skillCategories).map((category) => (
-			<li class="text-[#0f0cc7c5]" >
-				<h4>{category}</h6>
-				{skillCategories[category] && (
-				<p class="text-[#0f0cc7c5] font-mono" >
-
-					{skillCategories[category].map((skill) => (
-						<>{skill} &nbsp;</>
-					
+			<div class=" mx-5 text-justify md:w-[80ch]">
+			<h1>{pageTitle}</h1>
+			<h2>... and my developer journey!</h2>
+			<h3> Welcome to My Digital Playground!</h3>
+			<p> Hey there! I'm {identity.firstName} (aka Aishu), a {identity.occupation} at {identity.company} based in the sun-kissed streets of Porto, {identity.country}, where the pastries are sweeter than me (and trust me, that’s pretty sweet!). 
+			<br> <br>
+			When I’m not busy crafting pixel-perfect web applications, you can find me binge-watching movies, geeking out over the latest anime series, or plotting my next adventure to a far-off land—because what's better than debugging code? Debugging code while sipping tea in a cozy café in Tokyo, of course!
+			<br> <br>
+			With a passion for turning ideas into code and a love for storytelling, I create web experiences that are as engaging as a plot twist in your favorite film. So grab some popcorn, scroll through my portfolio, and let’s embark on a tech journey that’s bound to be more exciting than a giant robot battle! 🎬✨✈️</p>
+			<br>
+			<p>My skills are:</p>
+				<ul>
+					{Object.keys(skillCategories).map((category) => (
+					<li >
+						<h4>{category}</h4>
+						{skillCategories[category] && (
+						<p>
+							{skillCategories[category].map((skill) => (
+								<>{skill} &nbsp;</>
+							
+							))}
+					</p>
+						)}
+					</li>
 					))}
-			</p>
-				)}
-			</li>
-			))}
-		</ul>              
-		</div></div>
+				</ul>              
+			</div>
+		</div>
 		<Footer />
 	</body>
 </html>

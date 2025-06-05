@@ -1,15 +1,16 @@
 ---
+import LogoSlider from '../components/LogoSlider.astro';
 import BaseLayout from '../layouts/Layout.astro';
+import Projects from "../components/Projects.astro";
 const pageTitle = " Welcome to my Portfolio!";
 import "../styles/global.css";
 ---
 <BaseLayout pageTitle={pageTitle}>
 
-    <p> I have coined the term 'Portophilia' to reflect my admiration for the beautiful city of Porto, where I have recently relocated. The term also plays on the concept of 'portfolio', highlighting my work and showcasing my passion for both the city and my creative endeavors.</p>
-    <h1 class="text-[#390a64]">My Projects</h1>
-  <ul> 
-     <a href="https://sonic-search.netlify.app/"><h4>Sonic Search</h4></a>
-    <p> A user-friendly web application designed to help music lovers discover albums from their favorite artists using the powerful Spotify API.</p>
-  </ul>
+  <p> I have coined the term 'Portophilio' to reflect my admiration for the beautiful city of Porto, where I have recently relocated. The term also plays on the concept of 'portfolio', highlighting my work and showcasing my passion for both the city and my creative endeavors.</p>
+  <LogoSlider/>
+  <h2>My Projects</h2>
+ 
+  <Projects/>
 
 </BaseLayout>

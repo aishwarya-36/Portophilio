@@ -9,7 +9,7 @@ const pageTitle = "My Blogs";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<p>This is where I will post about my journey of becoming a developer!</p>
-	<div class="flex flex-wrap max-w-[1300px]">
-		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}	
-	</div>
+	<ul class=" max-w-[1300px]">
+		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate} />)}	
+	</ul>
 </BaseLayout>
