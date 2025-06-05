@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "From Pandemic Blues to Coding Cues: My Unexpected Journey into Web Development"
-pubDate: 20-02-2025
+pubDate: 20 Feb'25
 description: "This is the first post of my Astro blog."
 author: "Aishwarya"
 image:
@@ -10,9 +10,10 @@ image:
 tags: ["Developer", "Blogging", "Learning"]
 ---
 
+![A girl coding silhouette](../../assets/coding.png)
+
 Welcome to my _new blog_ about becoming a developer. Here, I will share my learning journey as I build my portfolio website.
 
-![A girl coding silhouette](../../assets/coding.png)
 
 #### How it all started
 

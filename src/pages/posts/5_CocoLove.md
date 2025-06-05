@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "The Pawsomatic Staycation"
-pubDate: 20-05-2025
+pubDate: 20 May'25
 description: "The joyous adventure filled with laughter and love!"
 author: "Aishwarya"
 image:

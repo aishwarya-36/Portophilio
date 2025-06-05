@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "Rediscovering My Maker Spirit at LCD Porto"
-pubDate: 20-04-2025
+pubDate: 20 Apr'25
 description: "My Happy Place"
 author: "Aishwarya"
 image:

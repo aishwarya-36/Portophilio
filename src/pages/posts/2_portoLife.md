@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "From Chaos to Calm: My Journey to Vila do Conde"
-pubDate: 21-03-2025
+pubDate: 21 Mar'25
 description: "My Breezy Life in Porto"
 author: "Aishwarya"
 image:

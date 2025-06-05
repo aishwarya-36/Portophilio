@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "The New Job Application Gauntlet"
-pubDate: 20-04-2025
+pubDate: 20 Apr'25
 description: "The Struggles of answering Behavioral questions in Job Applications"
 author: "Aishwarya"
 image:
