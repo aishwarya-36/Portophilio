@@ -1,42 +1,9 @@
 ---
 ---
 
-<footer class="w-full py-12 border-t border-[#ffffff10]">
-  <div class="max-w-5xl mx-auto w-[80ch]">
-    <div class="flex justify-between gap-6">
-      <div class="flex gap-3 max-w-xs">
-        {
-          [
-            {
-              desc: "Built with",
-              name: "Astro",
-              icon: "/logos/astro.svg",
-              alt: "Astro Logo",
-            },
-            {
-              desc: "Styled with",
-              name: "TailwindCSS",
-              icon: "/logos/tailwindcss.svg",
-              alt: "TailwindCSS Logo",
-            },
-         
-          ].map((tech) => (
-            <div class="flex items-center justify-center lg:justify-normal space-x-0.5">
-              <span class="text-[var(--white-icon)]">
-                {tech.desc}
-              </span>
-              <img
-                src={tech.icon}
-                alt={tech.alt}
-                class="h-6 w-6 object-contain filter brightness-0 invert opacity-50"
-                loading="lazy"
-              />
-           
-            </div>
-          ))
-        }
-      </div>
-  
+<footer class="w-full relative bottom-0 py-12 border-t border-[#ffffff10] mx-2">
+  <div class="max-w-[100ch] mx-auto">
+    <div class="flex items-center justify-between gap-6">
       <div class="flex flex-col lg:items-start items-center gap-7">
         <div class="flex space-x-6 sm:space-x-5">
           {
@@ -71,7 +38,38 @@
           }
         </div>
       </div>
-
+<div class="flex gap-3 max-w-xs py-3 justify-center pl-6">
+        {
+          [
+            {
+              desc: "Built with",
+              name: "Astro",
+              icon: "/logos/astro.svg",
+              alt: "Astro Logo",
+            },
+            {
+              desc: "Styled with",
+              name: "TailwindCSS",
+              icon: "/logos/tailwindcss.svg",
+              alt: "TailwindCSS Logo",
+            },
+         
+          ].map((tech) => (
+            <div class="flex items-center justify-center lg:justify-normal text-xs space-x-0.5">
+              <span class="text-[var(--white-icon)]">
+                {tech.desc}
+              </span>
+              <img
+                src={tech.icon}
+                alt={tech.alt}
+                class="h-6 w-6 object-contain filter brightness-0 invert opacity-50"
+                loading="lazy"
+              />
+           
+            </div>
+          ))
+        }
+      </div>
     </div>
     <p class="text-center "> Copyright © {new Date().getFullYear()}. All Rights Reserved.</p>
   </div>
