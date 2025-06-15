@@ -2,8 +2,8 @@
 const { title, url,date } = Astro.props;
 ---
 <li class="m-2 list-none">
-   <span class="mr-3 font-light">{date}</span>
-<a href={url}>
-   {title}
-</a>
+   <span class="mr-3 text-right font-light w-[90px] inline-block">{date}</span>
+   <a href={url}>
+      {title}
+   </a>
 </li>

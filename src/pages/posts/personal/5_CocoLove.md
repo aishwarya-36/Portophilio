@@ -1,16 +1,16 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: /src/layouts/MarkdownPostLayout.astro
 title: "The Pawsomatic Staycation"
 pubDate: 20 May'25
 description: "The joyous adventure filled with laughter and love!"
 author: "Aishwarya"
 image:
-  url: "../../assets/dog.jpg"
+  url: "/src/assets/dog.jpg"
   alt: "A woman playing with her dog"
 tags: ["Staycation", "Dogs", "Blogging", "Maarssen"]
 ---
 
-![A woman with her dog](../../assets/dog.jpg)
+![A woman with her dog](/src/assets/dog.jpg)
 
 For as long as I can remember, I’ve loved animals, especially dogs. 🐾✨
 I once had a cat during my college days, who taught me that even the seemingly selfish graces of feline friends can hold a special place in our hearts. His name was Meowth, and even though I wasn’t typically fond of cats, my heart went out to him. He was different — strayed alone by his siblings, with two hind legs paralyzed, yet he had the cutest, most expressive eyes. 

@@ -1,16 +1,16 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: /src/layouts/MarkdownPostLayout.astro
 title: "From Chaos to Calm: My Journey to Vila do Conde"
 pubDate: 21 Mar'25
 description: "My Breezy Life in Porto"
 author: "Aishwarya"
 image:
-  url: "../../assets/blogging.jpeg"
+  url: "/src/assets/blogging.jpeg"
   alt: "A girl writing on a beach sunset background"
 tags: ["Blogging", "Porto", "Beach","Personal"]
 ---
 
-![A girl blogging at beach](../../assets/blogging.jpeg)
+![A girl blogging at beach](/src/assets/blogging.jpeg)
 
 After what felt like an eternity of navigating the tumultuous waters of visa struggles, I finally found my way to the charming coastal town of Vila do Conde, Portugal. Picture this: over two and a half years of longing, uncertainty, and the occasional existential crisis, all wrapped up in a suitcase bursting with dreams. And now? Here I am, finally reunited with my husband in a place that feels like a postcard come to life.
 

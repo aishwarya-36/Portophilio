@@ -1,16 +1,16 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: /src/layouts/MarkdownPostLayout.astro
 title: "From Pandemic Blues to Coding Cues: My Unexpected Journey into Web Development"
 pubDate: 20 Feb'25
 description: "This is the first post of my Astro blog."
 author: "Aishwarya"
 image:
-  url: "./../../assets/coding.png"
+  url: "/src/assets/coding.png"
   alt: "A girl coding silhouette"
 tags: ["Developer", "Blogging", "Learning"]
 ---
 
-![A girl coding silhouette](../../assets/coding.png)
+![A girl coding silhouette](/src/assets/coding.png)
 
 Welcome to my _new blog_ about becoming a developer. Here, I will share my learning journey as I build my portfolio website.
 

@@ -3,13 +3,33 @@
 import '../../styles/global.css';
 import BaseLayout from '../../layouts/BlogsLayout.astro'
 import BlogPost from '../../components/Blogpost.astro';
-const allPosts = Object.values(import.meta.glob('./*.md', { eager: true }));
+const personalPosts = Object.values(import.meta.glob('./personal/*.md', { eager: true }));
+const professionalPosts = Object.values(import.meta.glob('./professional/*.md', { eager: true }));
+
 const pageTitle = "My Blogs";
 
 ---
 <BaseLayout pageTitle={pageTitle}>
-	<p>This is where I will post about my journey of becoming a developer!</p>
-	<ul class=" max-w-[1300px]">
-		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate} />)}	
+	<h4>Soul Scribbles</h4>
+	<ul class="max-w-[1300px] mb-6">
+		{personalPosts.slice().reverse().map((post: any) => (
+			<BlogPost
+			key={post.url}
+			url={post.url}
+			title={post.frontmatter.title}
+			date={post.frontmatter.pubDate}
+			/>
+		))}
+	</ul>
+	<h4>Professional Perspective</h4>
+	<ul class="max-w-[1300px] w-full">
+		{professionalPosts.slice().reverse().map((post: any) => (
+			<BlogPost
+			key={post.url}
+			url={post.url}
+			title={post.frontmatter.title}
+			date={post.frontmatter.pubDate}
+			/>
+		))}
 	</ul>
 </BaseLayout>

@@ -1,16 +1,16 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: /src/layouts/MarkdownPostLayout.astro
 title: "The New Job Application Gauntlet"
 pubDate: 20 Apr'25
 description: "The Struggles of answering Behavioral questions in Job Applications"
 author: "Aishwarya"
 image:
-  url: "../../assets/job_application.png"
+  url: "/src/assets/job_application.png"
   alt: "A woman anxious about Jobs"
 tags: ["Jobs", "Developer", "Blogging", "Porto"]
 ---
 
-![A woman anxious about Jobs](../../assets/job_application.png)
+![A woman anxious about Jobs](/src/assets/job_application.png)
 
 The job application process—once a simple and straightforward affair of sending out a resume and crossing your fingers, now transformed into an elaborate quest that would normally be asked at an interview. Enter the latest trend: the long list of subjective and behavioral questions that make you feel like you’re not just applying for a job, but auditioning for a reality show.
 All this even before knowing if their application is being reviewed by a human that is.
