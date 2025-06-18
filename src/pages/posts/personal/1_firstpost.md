@@ -10,7 +10,7 @@ image:
 tags: ["Developer", "Blogging", "Learning"]
 ---
 
-![A girl coding silhouette](/src/assets/coding.png)
+![A girl coding silhouette](../../../assets/coding.png)
 
 Welcome to my _new blog_ about becoming a developer. Here, I will share my learning journey as I build my portfolio website.
 

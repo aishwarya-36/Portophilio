@@ -10,7 +10,7 @@ image:
 tags: ["Lab", "Blogging", "Porto", "Personal"]
 ---
 
-![A woman building things in a Makerspace](/src/assets/Lab.jpg)
+![A woman building things in a Makerspace](../../../assets/Lab.jpg)
 
 When I first moved here, I was excited but also a bit adrift. Making friends was a challenge, and weekends were often spent at home or I sometimes went to the club with my husband, watching cricket matches. Now, don’t get me wrong, I used to enjoy watching cricket, but lately, I haven’t been keeping up with it as much. I still love the atmosphere at the stadium—it’s unbeatable! But when I’m at home, I find that the TV has better replay action, which makes it easier to appreciate the game.
 
