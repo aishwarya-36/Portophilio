@@ -3,8 +3,19 @@ import BaseLayout from '../../layouts/Layout.astro';
 import Blogpost from '../../components/Blogpost.astro';
 
 export async function getStaticPaths() {
-    const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
-    const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
+   
+    const personalPosts = Object.values(import.meta.glob('./../posts/personal/*.md', { eager: true }));
+    const professionalPosts = Object.values(import.meta.glob('./../posts/professional/*.md', { eager: true }));
+    const allPosts = [...personalPosts, ...professionalPosts];
+
+    const uniqueTags = [
+  ...new Set(
+    [
+      ...personalPosts.map((post: any) => post.frontmatter.tags).flat(),
+      ...professionalPosts.map((post: any) => post.frontmatter.tags).flat()
+    ]
+  )
+];
     
     return uniqueTags.map((tag) => {
         const filteredPosts = allPosts.filter((post: any) => post.frontmatter.tags.includes(tag));
