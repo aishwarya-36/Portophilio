@@ -14,6 +14,7 @@ const { frontmatter } = Astro.props;
       <p class="mr-2 border border-dotted border-[#532d2d] p-1 text-sm rounded-lg bg-gray-500 text-white"><a href={`/portophilio/tags/${tag}`}>{tag}</a></p>
     ))}
       </div>
+      <img src={frontmatter.image.url} alt={frontmatter.image.alt} class="w-full my-4 object-center" />
     <slot />
 </BaseLayout>
 

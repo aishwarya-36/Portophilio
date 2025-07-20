@@ -10,8 +10,6 @@ image:
 tags: ["Blogging", "Porto", "Beach","Personal"]
 ---
 
-![A girl blogging at beach](../../../assets/blogging.jpeg)
-
 After what felt like an eternity of navigating the tumultuous waters of visa struggles, I finally found my way to the charming coastal town of Vila do Conde, Portugal. Picture this: over two and a half years of longing, uncertainty, and the occasional existential crisis, all wrapped up in a suitcase bursting with dreams. And now? Here I am, finally reunited with my husband in a place that feels like a postcard come to life.
 
 Let me set the scene: I’ve swapped the sweltering, humid heat of Chennai for the refreshingly crisp air of Portugal. Honestly, it’s like stepping into a breath of fresh air—literally! The weather here is a delightful chill that hugs you like a cozy blanket, rather than the sticky embrace of humidity that I used to know.

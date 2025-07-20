@@ -10,8 +10,6 @@ image:
 tags: ["Staycation", "Dogs", "Blogging", "Maarssen"]
 ---
 
-![A woman with her dog](../../../assets/dog.jpg)
-
 For as long as I can remember, I’ve loved animals, especially dogs. 🐾✨
 I once had a cat during my college days, who taught me that even the seemingly selfish graces of feline friends can hold a special place in our hearts. His name was Meowth, and even though I wasn’t typically fond of cats, my heart went out to him. He was different — strayed alone by his siblings, with two hind legs paralyzed, yet he had the cutest, most expressive eyes. 
 

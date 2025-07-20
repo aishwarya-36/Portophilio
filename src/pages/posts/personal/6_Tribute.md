@@ -10,8 +10,6 @@ image:
 tags: ["Personal", "Blogging", "Developer","Jobs"]
 ---
 
-![A woman achieving a milestone](../../../assets/tribute.jpeg)
-
 After months of relentless effort, self-doubt, and perseverance, I am finally stepping into a new chapter of my life — I’ve landed a developer role at Motiveminds, based in Bangalore. This achievement wasn’t handed to me on a silver platter; it’s the result of countless late nights, unwavering determination, and the support of amazing people who stood by me through every twist and turn of my journey and made it a little easier.
 
 A dream I held onto during my initial years in SG was to take a six-month break — to leave behind the routine, save money, and travel the world. It was a way to find clarity, to reset my perspective, and to embrace the adventures life had to offer. Looking back, I realize that living through 2022 wasn’t as rosy as I had imagined it would be. There were days filled with uncertainty and battling the noise of external opinions that often made me doubt my own instincts.
