@@ -5,7 +5,7 @@ pubDate: 20 Apr'25
 description: "My Happy Place"
 author: "Aishwarya"
 image:
-  url: "/src/assets/Lab.jpg"
+  url: "/blog/Lab.jpg"
   alt: "A woman building things in a Makerspace"
 tags: ["Lab", "Blogging", "Porto", "Personal"]
 ---

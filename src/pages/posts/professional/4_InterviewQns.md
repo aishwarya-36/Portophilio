@@ -5,7 +5,7 @@ pubDate: 20 Apr'25
 description: "The Struggles of answering Behavioral questions in Job Applications"
 author: "Aishwarya"
 image:
-  url: "/src/assets/job_application.png"
+  url: "/blog/job_application.png"
   alt: "A woman anxious about Jobs"
 tags: ["Jobs", "Developer", "Blogging", "Porto"]
 ---

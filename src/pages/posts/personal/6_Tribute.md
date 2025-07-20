@@ -5,7 +5,7 @@ pubDate: 20 Jun'25
 description: "A heartfelt reflection on my journey, dedicated to those who supported me every step of the way."
 author: "Aishwarya"
 image:
-  url: "/src/assets/tribute.jpeg"
+  url: "/blog/tribute.jpeg"
   alt: "A woman achieving a milestone"
 tags: ["Personal", "Blogging", "Developer","Jobs"]
 ---

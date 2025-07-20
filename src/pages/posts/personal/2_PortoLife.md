@@ -5,7 +5,7 @@ pubDate: 21 Mar'25
 description: "My Breezy Life in Porto"
 author: "Aishwarya"
 image:
-  url: "/src/assets/blogging.jpeg"
+  url: "/blog/blogging.jpeg"
   alt: "A girl writing on a beach sunset background"
 tags: ["Blogging", "Porto", "Beach","Personal"]
 ---

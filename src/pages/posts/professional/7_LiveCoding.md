@@ -5,7 +5,7 @@ pubDate: 20 Jul'25
 description: "The Moment I Gritted, Grew, and Got It Done!"
 author: "Aishwarya"
 image:
-  url: "/src/assets/interview.jpeg"
+  url: "/blog/interview.jpeg"
   alt: "coding"
 tags: ["Jobs", "Blogging", "Developer", "Porto"]
 ---

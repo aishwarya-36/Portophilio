@@ -5,7 +5,7 @@ pubDate: 20 May'25
 description: "The joyous adventure filled with laughter and love!"
 author: "Aishwarya"
 image:
-  url: "/src/assets/dog.jpg"
+  url: "/blog/dog.jpg"
   alt: "A woman playing with her dog"
 tags: ["Staycation", "Dogs", "Blogging", "Maarssen"]
 ---

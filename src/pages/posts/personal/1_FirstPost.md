@@ -5,7 +5,7 @@ pubDate: 20 Feb'25
 description: "This is the first post of my Astro blog."
 author: "Aishwarya"
 image:
-  url: "/src/assets/coding.jpeg"
+  url: "/blog/coding.jpeg"
   alt: "A girl coding silhouette"
 tags: ["Developer", "Blogging", "Learning"]
 ---
