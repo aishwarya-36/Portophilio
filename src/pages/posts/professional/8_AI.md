@@ -16,7 +16,7 @@ When I first dipped my toes into web development, AI wasn’t the buzzword it is
 
 I’ll admit, it was intimidating. But after chatting with a few seasoned devs, I realized something crucial: AI isn’t here to replace us—it’s here to amplify us. Used right, it’s a game-changing productivity booster. Used wrong? Well, let’s just say you’ll spend more time untangling spaghetti code than actually building anything cool.
 
-I started my journey the traditional way—docs, tutorials, and a lot of trial and error. No shortcuts, no magic AI wand. Only after I had my fundamentals locked in did I start experimenting with AI tools. And wow, was I impressed! The speed, the explanations, the way it “got” what I was trying to do—it felt like having a super-smart pair programmer.
+I started my journey the traditional way—docs, tutorials, and a lot of trial and error. No shortcuts, no magic AI wand. Only after I had my fundamentals locked in did I start experimenting with AI tools. And wow, I was impressed! The speed, the explanations, the way it “got” what I was trying to do—it felt like having a super-smart pair programmer.
 As I moved from simple scripts to complex projects, I saw firsthand why experienced devs aren’t sweating AI. Behind every slick AI-generated solution, there’s often a mess waiting to be cleaned up. Sometimes, it’s faster (and saner) to just write the code yourself.
 
 #### The Bootcamp Bubble 
